@@ -1,0 +1,146 @@
+
+#ex 3.1
+list= ['sadaf', 'Sidra', 'hifza', 'fatima', 'ayesha']
+print(list)
+
+#ex 3.2
+list = ['sadaf', 'Sidra', 'hifza', 'fatima', 'ayesha']
+print("Hey how are you "+list[0].title()+'.')
+print("Hey how are you "+list[1].title()+'.')
+print("Hey how are you "+list[2].title()+'.')
+print("Hey how are you "+list[3].title()+'.')
+print("Hey how are you "+list[4].title()+'.')
+
+#ex 3.3
+Car=['Civic','Mark X','City','Alisvan']
+print ("I Would like to own "+ Car[0]+'.')
+print ("I Would like to own "+ Car[1]+'.')
+print ("I Would like to own "+ Car[2]+'.')
+print ("I Would like to own "+ Car[3]+'.')
+
+#ex 3.4
+Guests=['Sidra', 'hifza', 'fatima', 'ayesha']
+print(Guests)
+print ("hey dear you are invited for a dinner " +Guests[0].title()+ '.')
+print ("hey dear you are invited for a dinner " +Guests[1].title()+ '.')
+print ("hey dear you are invited for a dinner " +Guests[2].title()+ '.')
+
+#ex 3.5
+Guests=['Sidra', 'hifza', 'fatima', 'ayesha']
+print(Guests)
+print ("hey dear you are invited for a dinner " +Guests[0].title()+ '.')
+print ("hey dear you are invited for a dinner " +Guests[1].title()+ '.')
+print ("hey dear you are invited for a dinner " +Guests[2].title()+ '.')
+print ("Sorry "+ Guests[0].title()+ "Cant make it to dinner" )
+del Guests[0]
+Guests.insert(0,'sadaf')
+print (Guests)
+print ("hey dear you are invited for a dinner " + Guests[0].title()+ '.')
+
+#ex 3.6
+Guests=['Sidra', 'hifza', 'fatima', 'ayesha']
+print(Guests)
+print ("hey dear you are invited for a dinner " +Guests[0].title()+ '.')
+print ("hey dear you are invited for a dinner " +Guests[1].title()+ '.')
+print ("hey dear you are invited for a dinner " +Guests[2].title()+ '.')
+print("cant make a dinner")
+Guests=['Sidra', 'hifza', 'fatima', 'ayesha']
+print(Guests)
+print ("hey dear you are invited for a dinner " +Guests[0].title()+ '.')
+print ("hey dear you are invited for a dinner " +Guests[1].title()+ '.')
+print ("hey dear you are invited for a dinner " +Guests[2].title()+ '.')
+print ("Sorry "+ Guests[0].title()+ "Cant make it to dinner" )
+del Guests[0]
+Guests.insert(0,'Rida')
+print (Guests)
+print ("hey dear you are invited for a dinner " + Guests[0].title()+ '.')
+print ("Found Bigger Table")
+print(Guests)
+Guests.insert(4,"Rania")
+print ("hey dear you are invited for a dinner " + Guests[4].title()+ '.')
+Guests.insert(5,"Kashaf")
+print ("hey dear you are invited for a dinner " + Guests[5].title()+ '.')
+print(Guests)
+
+
+#ex 3.7
+Guests=['Sidra', 'hifza', 'fatima', 'ayesha']
+print(Guests)
+print ("hey dear you are invited for a dinner " +Guests[0].title()+ '.')
+print ("hey dear you are invited for a dinner " +Guests[1].title()+ '.')
+print ("hey dear you are invited for a dinner " +Guests[2].title()+ '.')
+print("cant make a dinner")
+Guests=['Sidra', 'hifza', 'fatima', 'ayesha']
+print(Guests)
+print ("hey dear you are invited for a dinner " +Guests[0].title()+ '.')
+print ("hey dear you are invited for a dinner " +Guests[1].title()+ '.')
+print ("hey dear you are invited for a dinner " +Guests[2].title()+ '.')
+print ("Sorry "+ Guests[0].title()+ "Cant make it to dinner" )
+del Guests[0]
+Guests.insert(0,'Rida')
+print (Guests)
+print ("hey dear you are invited for a dinner " + Guests[0].title()+ '.')
+print ("Found Bigger Table")
+Guests.insert(4,'irha')
+print ("hey dear you are invited for a dinner " + Guests[4].title()+ '.')
+Guests.insert(5,'maryam')
+print ("hey dear you are invited for a dinner " + Guests[5].title()+ '.')
+print(Guests)
+print ("sorry you cant invite them to dinner " + Guests[0].title()+ '.')
+print ("sorry you cant invite them to dinner " + Guests[1].title()+ '.')
+print ("sorry you cant invite them to dinner " + Guests[2].title()+ '.')
+print ("sorry you cant invite them to dinner " + Guests[3].title()+ '.')
+print ("You are invited for dinner " + Guests[4].title()+ '.')
+print ("You are invited for dinner " + Guests[5].title()+ '.')
+#Guests.pop(0)
+#Guests.pop(1)
+#Guests.pop(2)
+#Guests.pop(4)
+
+
+#ex 3.8
+Places=['Multan','karachi','sargodha','Khanewal','Lahore']
+print(Places)
+print ("Sourted List")
+Places.sort()
+print(Places)
+Places=['Multan','karachi','sargodha','Khanewal','Islamabad']
+print(sorted(Places))
+print(Places)
+print(sorted(Places, reverse=True))
+print(Places)
+print(sorted(Places, reverse=True))
+print(Places)
+Places.sort()
+print(Places)
+
+
+#ex 3.9
+Guests=['sadaf','safa','sana','fatima']
+print(Guests)
+print("sorry you are not invited "+Guests[0]+'.')
+del Guests[0]
+print(Guests)
+print("sorry you are not invited "+Guests[1]+'.')
+del Guests[1]
+print("sorry you are  invited "+Guests[0]+'.')
+print("sorry you are  invited "+Guests[1]+'.')
+len(Guests)
+
+#ex 3.10
+fruit=['grapes','apple','banana','melon']
+print(fruit)
+print("sorry you are  invited "+fruit[1]+'.')
+print(fruit)
+fruit.insert(4,'melon')
+fruit[0] ="mango"
+print(fruit)
+fruit.append('grapes')
+print(fruit)
+del fruit[0]
+print(fruit)
+fruit.sort()
+print(fruit)
+fruit.reverse()
+print (fruit)
+len(fruit)
